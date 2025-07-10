@@ -72,3 +72,17 @@ ecommerce-system/
 * Product quantities are mutable directly.
 * No explicit thread safety (single-user context assumed).
 * `double` for balance (not `BigDecimal` for precision in financial apps).
+
+## Screenshots from running app.
+
+### Adding sample products to the inventory
+<img width="668" height="106" alt="Image" src="https://github.com/user-attachments/assets/7084b115-ef89-4f63-b0d2-7c5dc114b7b0" />
+
+### Successful Checkout with all types of products case
+<img width="668" height="471" alt="Image" src="https://github.com/user-attachments/assets/14c7cfe0-edaf-4dc1-902a-905933cc377e" />
+
+### Test possible Error Cases
+<img width="668" height="647" alt="Image" src="https://github.com/user-attachments/assets/3b51eac1-9df2-4df0-95e1-93a87c02de2e" />
+
+### Non-shippable product checkout
+<img width="668" height="386" alt="Image" src="https://github.com/user-attachments/assets/8f1e7bb9-271f-4f43-9d1b-4c418009a6ce" />
